@@ -1,0 +1,91 @@
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <div class="col-5 booking-form__subNav">
+        <a
+          routerLink="home/homebooking"
+          routerLinkActive="sublinkActive"
+          class="col subNav"
+          ><span class="text-center">Flights</span></a
+        >
+        <a
+          routerLink="home/homebooking"
+          routerLinkActive="sublinkActive"
+          class="col subNav"
+          ><span class="text-center">Hotels</span></a
+        >
+        <a
+          routerLink="home/homebooking"
+          routerLinkActive="sublinkActive"
+          class="col subNav"
+          ><span class="text-center">Flights + Hotels</span></a
+        >
+        <a
+          routerLink="home/homebooking"
+          routerLinkActive="sublinkActive"
+          class="col subNav"
+          ><span class="text-center">Holidays</span></a
+        >
+      </div>
+      <div class="col-6 booking-form__formcontainer">
+        <h5 class="col-6 d-inline booking-form__formcontainer__title">
+          BOOK YOUR FLIGHTS
+        </h5>
+        <div class="btn-group col-4" role="group" aria-label="Basic example">
+          <button
+            type="button"
+            class="btn booking-form__formcontainer__domeBtn"
+          >
+            Domestic
+          </button>
+          <button type="button" class="btn booking-form__formcontainer__intBtn">
+            International
+          </button>
+        </div>
+
+        <form>
+          <div class="form-row pt-4">
+            <div class="form-group col-lg-6 col-md-6">
+              <label for="exampleInputEmail1"><b>FROM</b></label>
+              <input
+                type="text"
+                id="InputFrom"
+                class="form-control"
+                placeholder="E.g Melbourne, Australia"
+              />
+            </div>
+            <div class="form-group col-lg-6 col-md-6 float-right">
+              <label for="exampleInputEmail1"><b>TO</b></label>
+              <input
+                type="text"
+                id="InputTO"
+                class="form-control"
+                placeholder="E.g New York, United States"
+              />
+            </div>
+          </div>
+
+          <div class="form-row pt-4">
+            <div class="form-group col-md-6">
+              <label for="departDate"><b>DEPARTURE</b></label>
+              <input type="date" class="form-control" id="departDate" />
+            </div>
+            <div class="form-group col-md-4">
+              <label for="returnDate"><b>RETURN</b></label>
+              <input type="date" class="form-control" id="returnDate" />
+            </div>
+            <div class="form-group col-md-2">
+              <label for="qnty"><b>ADULTS</b></label>
+              <input type="number" class="form-control" id="qnty" />
+            </div>
+          </div>
+
+          <button type="submit" class="btn btn-primary">SEARCH FLIGHTS</button>
+          <a class="booking-form__formcontainer__search-link"
+            ><i>Advance Search</i></a
+          >
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

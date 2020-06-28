@@ -1,0 +1,93 @@
+.booking-form {
+  &__formcontainer {
+    border-top: 4px solid #a5111a;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.9;
+    height: auto;
+
+    margin-left: 6%;
+    margin-bottom: 10%;
+    padding: 40px 30px 40px 30px;
+
+    &__search-link {
+      color: #a5111a;
+      float: right;
+      border-bottom: 0.7px solid #a5111a;
+      //   text-decoration: underline;
+    }
+    &__intBtn {
+      color: #000;
+      background-color: #fff;
+      border-color: gray;
+      font-size: 10px;
+    }
+    &__domeBtn {
+      color: #fff;
+      background-color: #a5111a;
+      border-color: #a5111a;
+      font-size: 10px;
+    }
+
+    &__title {
+      padding-left: 0px;
+    }
+  }
+
+  &__subNav {
+    background-color: #4c4b5c;
+    height: 40px;
+    margin-left: 6%;
+    margin-top: 12%;
+  }
+}
+
+.btn-group {
+  float: right;
+}
+.btn-primary {
+  background-color: #a5111a !important;
+  border-color: #a5111a !important;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.subNav {
+  border-left: 0.5px solid #ffffff;
+  color: white !important;
+  font-weight: normal;
+
+  font-size: 17px !important;
+  text-align: center;
+  // vertical-align: middle;
+  line-height: 40px;
+  height: 100%;
+  position: relative;
+}
+
+.centersubNavText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: 0;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.sublinkActive {
+  background-color: #a5111a;
+
+  // content: "";
+  // border-left: 20px solid transparent;
+  // border-right: 20px solid transparent;
+  // border-bottom-width: 20px;
+  // border-bottom-style: solid;
+}
+.subNav:hover {
+  color: white;
+  text-decoration: none;
+  font-weight: bold !important;
+
+  // padding-top: 5px;
+}
+// .form-control {
+// }
